@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "cursive";
+  src: url("cursive.woff2");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: rgba(255, 243, 226, 0.884);
+}
+
+.container {
+  margin-left: 50px;
+}
+
+.container h2 {
+  margin-top: 3rem;
+  margin-left: 45px;
+  font-family: "cursive";
+  font-size: 4rem;
+  color: red;
+}
+
+.box1,
+.box2 {
+  max-height: 200px;
+  width: 400px;
+  border: 2px solid black;
+  margin: 1rem;
+  padding: 1rem;
+  /* background-color: #f0f0f0; */
+  background-color: rgb(249, 239, 223);
+  border-radius: 5px;
+}
+
+.box2 {
+  overflow: scroll;
+}
